@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pinball Calc</title>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+      <div>
+      <button onclick="addScore('pika')"> Pika Saver </button>
+      <button onclick="addScore('catch')">Catch</button>
+      <button onclick="addScore('evo')">Evo</button>
+      <button onclick="addScore('slot')">Slot</button>
+      <button onclick="addScore('travel')">Travel</button>
+      <br>
+      <button onclick="addMult(1)">+1</button>
+      <button onclick="addMult(2)">+2</button>
+      <button onclick="addMult(3)">+3</button>
+      <button onclick="addMult(4)">+4</button>
+      <button onclick="addMult(5)">+5</button>
+      <br>
+      <button onclick="undo()">Undo</button>
+      <button onclick="reset()">Reset</button>
+      </div>
+      <br>
+      <div>
+        <div><div>subtotal:</div><div id="subtotal"></div></div>
+        <div><div>multiplier:</div><div id="multiplier"></div></div>
+        <div><div>total:</div><div id="total"></div></div>
+      </div>
+  </body>
+</html>
